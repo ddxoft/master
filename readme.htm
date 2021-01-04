@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>DD虚拟键盘虚拟鼠标</title>
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+
+      <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link href="http://cdn.bootcss.com/highlight.js/8.5/styles/default.min.css" rel="stylesheet">
+
+      <style>
+       
+        body {
+          font-family: "Helvetica Neue","Helvetica","Lucida Grande","Arial","Hiragino Sans GB","Microsoft Yahei","WenQuanYi Micro Hei","sans-serif";
+        }
+        .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+          font-weight: normal;
+        }
+        .markdown-body {
+          font-size: 16px;
+          line-height: 1.8;
+
+          h1, h2, h3, h4, h5, h6 {
+              margin-top: 1.2em;
+              margin-bottom: 0.6em;
+              line-height: 1.35;
+          }
+
+          h6, h5 {
+              font-size: 14px;
+          }
+
+          p, pre, ul, ol, dl, form, hr, table, blockquote {
+              margin-bottom: 1.2em
+          }
+
+          li ul, li ol {
+              margin-bottom: 0.8em;
+          }
+
+          hr {
+              border-top: 1px solid #3B3B3B;
+          }
+
+          blockquote {
+              margin: 1em 0 1em 0;
+              padding: 0 0 0 1.6em;
+          }
+
+          blockquote small {
+              display: inline-block;
+              margin: 0.8em 0 0.8em 1.5em;
+              font-size:0.9em;
+          }
+        }
+        @media (min-width: 768px) {
+          .content-area {
+            max-width: 730px;
+          }
+        }
+        pre {
+            border: none;
+        }
+        .footer {
+            margin-bottom: 20px;
+        }
+      </style>
+  <style type="text/css"></style></head>
+  <body>
+    <main class="container markdown-body">
+
+        <div class="row">
+            <div class="col-md-8 col-md-push-2 col-sm-12">
+                <h2></h2>
+<p>
+</p>
+
+<h3 id="tip1">函数说明：</h3>
+                <p>所有函数(除特别说明外)的参数和返回值都为传值int32类型 </p>
+<!-- pre><code class="bash hljs">
+<h4></h4>
+</code>
+</pre -->
+
+<pre><code>
+<p>1. DD_btn(参数)
+功能： 模拟鼠标点击
+参数： 1 =左键按下 ，2 =左键放开
+4 =右键按下 ，8 =右键放开
+16 =中键按下 ，32 =中键放开
+64 =4键按下 ，128 =4键放开
+256 =5键按下 ，512 =5键放开 
+例子：模拟鼠标右键 只需要连写(中间可添加延迟) dd_btn(4); dd_btn(8);
+</p>
+<p>2. DD_mov(参数x,参数y)
+功能： 模拟鼠标结对移动
+参数： 参数x , 参数y 以屏幕左上角为原点。
+例子： 把鼠标移动到分辨率1920*1080 的屏幕正中间，
+int x = 1920/2 ; int y = 1080/2;
+DD_mov(x,y) ;
+</p>
+
+<p>3. DD_movR(参数dx,参数dy)
+功能： 模拟鼠标相对移动
+参数： 参数dx , 参数dy 以当前坐标为原点。
+例子： 把鼠标向左移动10像素
+DD_movR(-10,0) ;
+</p>
+<p>
+4. DD_whl(参数)
+功能: 模拟鼠标滚轮
+参数: 1=前 , 2 = 后
+例子: 向前滚一格, DD_whl(1)
+</p>
+<p>
+5. DD_key(参数1，参数2)
+功能： 模拟键盘按键
+参数： 参数1 ，请查看[DD虚拟键盘码表]。
+参数2，1=按下，2=放开
+例子： 模拟单键WIN，
+DD_key(601, 1);DD_key(601, 2);
+	组合键：ctrl+alt+del
+	DD_key(600,1);	
+	DD_key(602,1);	
+	DD_key(706,1);	
+	DD_key(706,2);
+	DD_key(602,2);
+	DD_key(600,2);
+</p>
+<p>
+6. DD_str(参数)
+功能： 直接输入键盘上可见字符和空格
+参数： 字符串, (注意，这个参数不是int32 类型)
+例子： DD_str("MyEmail@aa.bb.cc !@#$")
+</p>
+
+
+</code>
+</pre>
+
+                <hr>
+                   <blockquote>
+                    <p>
+                </blockquote>
+                 <blockquote>QQ群：984539184             </blockquote>                    
+            </div>
+        </div>
+                
+    </main>
+    <hr>
+    <footer class="footer container">
+      <div class="text-center">
+        Powered by <a href="#">ddxoft</a>
+      </div>
+    </footer>
+
+    <script src="http://cdn.bootcss.com/highlight.js/8.5/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+</body><div></div></html>
