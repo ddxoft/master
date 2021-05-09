@@ -50,7 +50,7 @@ DD_movR(-10,0) ;</p>
   DD_key(600,2);</p>
 <p>6. DD_str(参数)<br />
   功能： 直接输入键盘上可见字符和空格<br />
-  参数： 字符串, (注意，这个参数不是int32 类型)<br />
+  参数： 字符串<br />
   例子： DD_str(&quot;MyEmail@aa.bb.cc !@#$&quot;)</p>
 <p>&nbsp;</p>
 </body>
