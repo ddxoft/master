@@ -10,7 +10,7 @@
   DD Virtual Mouse &amp; Virtual Keyboard<br />
   QQ : 2827362732   QQ群: 984539184
 </p>
-<p>&nbsp;</p>
+<p><img src="http://www.ddxoft.com/pic/1458056700q.jpg" alt="2" width="280" height="280" /></p>
 <p>6个DD通用函数说明：</p>
 <p>1. DD_btn(参数)<br />
   功能： 模拟鼠标点击<br />
