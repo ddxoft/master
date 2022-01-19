@@ -6,6 +6,8 @@ public class DDTest {
 	 public static void main(String[] args) {
 		 System.out.println("²âÊÔ¿ªÊ¼");
 		 
+		 DD.INSTANCE.DD_btn(0);//to add a line
+		 
 		 //DD.INSTANCE.DD_mov(500, 500);   
 		 //DD.INSTANCE.DD_movR(100, 100);  
 		 //DD.INSTANCE.DD_btn(4);DD.INSTANCE.DD_btn(8); //
