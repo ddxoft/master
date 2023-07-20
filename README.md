@@ -12,6 +12,8 @@
 <p>Discord: ddxoft<br />
 <p>Tlg: https://t.me/ddxoft<br />
 <p>QQ群: 984539184 <br />
+<p>paypal.me/cnwz<br />
+
 <img src="http://www.ddxoft.com/pic/1458056700q.jpg" alt="2" width="280" height="280" /></p>
 <p>&nbsp;</p>
 <p>6个DD通用函数说明：</p>
