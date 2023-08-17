@@ -1,10 +1,11 @@
 package com.ddxoft;
 import com.sun.jna.Library;
 import com.sun.jna.Native;
+import com.sun.jna.Platform;
 
 public class DDTest {
 	 public static void main(String[] args) {
-		 System.out.println("²âÊÔ¿ªÊ¼");
+		 System.out.println("ï¿½ï¿½ï¿½Ô¿ï¿½Ê¼");
 		 
 		 DD.INSTANCE.DD_btn(0);//to add a line
 		 
@@ -17,8 +18,9 @@ public class DDTest {
 		 DD.INSTANCE.DD_str("123@AbC");    
 	 }
 	 
+	 
 	 public interface DD extends Library {
-		   DD INSTANCE = (DD)Native.loadLibrary("DD94687.64", DD.class);
+		   DD INSTANCE = (DD)Native.loadLibrary("x:\\dd2023.x64.dll", DD.class);
 		  
 		   public int DD_mov(int x, int y);//mouse move abs.
 		   public int DD_movR(int dx, int dy);//mouse move rel.
