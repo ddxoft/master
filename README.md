@@ -10,13 +10,13 @@
   DD Virtual Mouse &amp; Virtual Keyboard<br />
 </p>
 
-<p>The free version will be authenticated online when loading<br />
-<p>T<br />
+<p>the free version will be authenticated online when loading<br />
+<p>contact me for anti-cheat detection version.<br />
 
 <p>Discord: ddxoft<br />
-<p>Tlg: https://t.me/ddxoft<br />
+<p>Telegram: https://t.me/ddxoft<br />
 <p>QQ群: 774347892 <br />
-<p>paypal.me/cnwz<br />
+<p>PayPal. me/cnwz<br />
 
 <img src="http://www.ddxoft.com/pic/1458056700q.jpg" alt="2" width="280" height="280" /></p>
 <p>&nbsp;</p>
