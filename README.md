@@ -11,7 +11,7 @@
 </p>
 <p>Discord: ddxoft<br />
 <p>Tlg: https://t.me/ddxoft<br />
-<p>QQ群: 984539184 <br />
+<p>QQ群: 774347892 <br />
 <p>paypal.me/cnwz<br />
 <p>The free version will be authenticated online when loading<br />
 
