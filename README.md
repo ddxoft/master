@@ -9,11 +9,14 @@
 <p>DD 虚拟鼠标 &amp; 虚拟键盘<br />
   DD Virtual Mouse &amp; Virtual Keyboard<br />
 </p>
+
+<p>The free version will be authenticated online when loading<br />
+<p>T<br />
+
 <p>Discord: ddxoft<br />
 <p>Tlg: https://t.me/ddxoft<br />
 <p>QQ群: 774347892 <br />
 <p>paypal.me/cnwz<br />
-<p>The free version will be authenticated online when loading<br />
 
 <img src="http://www.ddxoft.com/pic/1458056700q.jpg" alt="2" width="280" height="280" /></p>
 <p>&nbsp;</p>
