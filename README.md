@@ -8,6 +8,8 @@
 <body>
 <p>DD 虚拟鼠标 &amp; 虚拟键盘<br />
   DD Virtual Mouse &amp; Virtual Keyboard<br />
+  <p>DD is the best, bar none.<br />
+
 </p>
 
 <p>the free version will be authenticated online when loading<br />
