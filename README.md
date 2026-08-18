@@ -13,7 +13,7 @@
 </p>
 
 <p>the free version will be authenticated online when loading<br />
-<p>need the anti-cheat version contact directly..<br />
+<p>Need the anti-cheat version? Contact me directly...<br />
 
 <p>Discord: ddxoft<br />
 <p>Telegram: https://t.me/ddxoft<br />
